@@ -128,6 +128,7 @@ To display a color palette legend, a *palette* object should exist with the foll
     }
 }
 ```
+To add layers to the NASA EOSDIS Worldview application configuration see [Adding layers to Worldview and the Product Picker](https://github.com/nasa-gibs/worldview-options-eosdis/blob/master/doc/config.md) for more information.
 
 ## New Map Sources
 
