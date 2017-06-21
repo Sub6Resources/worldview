@@ -14,8 +14,17 @@
 -->
 <html>
 <head>
-    <title>@OFFICIAL_NAME@</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- meta defines -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="keywords" content="nasa, worldview, nasa worldview, eosdis worldview, satellite imagery, remote sensing, natural hazards, natural disasters, near real-time, nrt, lance, wildfire management, air quality, weather forecasting, agriculture, dust storms, smoke plumes, vegetation, severe storms, shipping, fisheries, floods, drought, oil spills">
+    <meta name="description" content="Interactive interface for browsing full-resolution, global, near real-time satellite imagery.  Supports time-critical application areas such as wildfire management, air quality measurements, and weather forecasting.  Data is generally available within three hours of observation.">
+    <!-- <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-store">
+    <meta http-equiv="Pragma" content="no-cache"> -->
+    <title>@OFFICIAL_NAME@</title>
 
     <script type="text/javascript">
         if ( /MSIE (\d+\.\d+);/.test(navigator.userAgent) && ! /unsupported/.test(location.search) ) {
@@ -28,16 +37,6 @@
 
     <link rel="shortcut icon" href="brand/images/wv-icon.ico" type="image/vnd.microsoft.icon" />
 
-    <!-- meta defines -->
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="keywords" content="nasa, worldview, nasa worldview, eosdis worldview, satellite imagery, remote sensing, natural hazards, natural disasters, near real-time, nrt, lance, wildfire management, air quality, weather forecasting, agriculture, dust storms, smoke plumes, vegetation, severe storms, shipping, fisheries, floods, drought, oil spills">
-    <meta name="description" content="Interactive interface for browsing full-resolution, global, near real-time satellite imagery.  Supports time-critical application areas such as wildfire management, air quality measurements, and weather forecasting.  Data is generally available within three hours of observation.">
-    <meta http-equiv="Cache-control" content="no-cache">
-    <meta http-equiv="Cache-control" content="no-store">
-    <meta http-equiv="Pragma" content="no-cache">
-
     <!-- CSS resources ==================================================== -->
 
     <link type="text/css" rel="Stylesheet" href="ext/node_modules/font-awesome/css/font-awesome.min.css">
@@ -48,8 +47,8 @@
 
     <link type="text/css" rel="Stylesheet" href="ext/ui/iCheck-1.0.2-patch/skins/square/grey.css">
     <link type="text/css" rel="Stylesheet" href="ext/ui/iCheck-1.0.2-patch/skins/square/red.css">
-    <link type="text/css" rel="Stylesheet" href="ext/ui/iCheck-1.0.2-patch/skins/line/red.css">    
-    
+    <link type="text/css" rel="Stylesheet" href="ext/ui/iCheck-1.0.2-patch/skins/line/red.css">
+
     <!-- link.dev  -->      <link type="text/css" rel="Stylesheet" href="ext/ui/jquery.jscrollpane-2.0.22/jquery.jscrollpane.css">
     <!-- link.prod --> <!-- <link type="text/css" rel="Stylesheet" href="ext/ui/jquery.jscrollpane-2.0.22/jquery.jscrollpane.min.css"> -->
 
@@ -154,7 +153,7 @@
     <!-- link.dev  -->      <script type="text/javascript" src="ext/image/jcrop-0.9.12/jquery.Jcrop.js"></script>
     <!-- link.prod --> <!-- <script type="text/javascript" src="ext/image/jcrop-0.9.12/jquery.Jcrop.min.js"></script> -->
 
- 
+
 
                             <script type="text/javascript" src="ext/ui/noUiSlider-6.1.10/jquery.nouislider.min.js"></script>
 
@@ -245,7 +244,7 @@
     <!-- link.dev --> <script type="text/javascript" src="js/naturalEvents/wv.naturalEvents.model.js"></script>
     <!-- link.dev --> <script type="text/javascript" src="js/naturalEvents/wv.naturalEvents.ui.js"></script>
     <!-- link.dev --> <script type="text/javascript" src="js/naturalEvents/wv.naturalEvents.map.js"></script>
-    
+
     <!-- link.dev --> <script type="text/javascript" src="js/map/wv.map.js"></script>
     <!-- link.dev --> <script type="text/javascript" src="js/map/wv.map.model.js"></script>
     <!-- link.dev --> <script type="text/javascript" src="js/map/wv.map.rotate.js"></script>
@@ -255,7 +254,7 @@
     <!-- link.dev --> <script type="text/javascript" src="js/map/wv.map.precachetile.js"></script>
     <!-- link.dev --> <script type="text/javascript" src="js/map/wv.map.ui.js"></script>
     <!-- link.dev --> <script type="text/javascript" src="js/map/wv.map.animate.js"></script>
-    
+
     <!-- link.dev --> <script type="text/javascript" src="js/link/wv.link.model.js"></script>
     <!-- link.dev --> <script type="text/javascript" src="js/link/wv.link.ui.js"></script>
 
@@ -382,13 +381,13 @@
       </header>
       <div id="layer-modal-main">
         <div id="layer-categories">
-          
+
         </div>
         <div id="selected-category">
-          
+
         </div>
         <div id="layers-all">
-          
+
         </div>
       </div>
       <footer>
